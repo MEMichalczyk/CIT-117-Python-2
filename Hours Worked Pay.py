@@ -4,7 +4,7 @@ DAYS = {}
 # Constants for hours/mins/overtime.
 TOTALHOURS = 0
 TOTALMINUTES = 0
-fOVER_TIME_HOURS = 40.0
+OVER_TIME_HOURS = 40.0
 fHalfTimeHours = 0.0
 
 print ("Weekly Hour and pay Calculator\n")
@@ -48,8 +48,8 @@ fTotalDisplay = fTotalTime
 
 # 2. Determine Over Time and Double Time:
 
-if fTotalTime > fOVER_TIME_HOURS:
-    fHalfTimeHours = fTotalTime - fOVER_TIME_HOURS
+if fTotalTime > OVER_TIME_HOURS:
+    fHalfTimeHours = fTotalTime - OVER_TIME_HOURS
     fTotalTime -= fHalfTimeHours
   
 
